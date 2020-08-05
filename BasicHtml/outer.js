@@ -1,2 +1,2 @@
-//javascript
-alert("Hello JavaScript .. !");
+//javastript
+alert("New javastript...!");
