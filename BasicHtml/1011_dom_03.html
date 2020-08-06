@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <title>DOM example</title>
+    <script>
+      window.onload = function () {
+        var image = document.getElementById("image");
+        image.setAttribute("width", "800");
+        image.setAttribute("height", "680");
+        image.src = "http://placehold.it/640x400";
+
+        image.getAttribute("width", "200");
+
+        document.body.setAttribute("data-custom", "HellosJs");
+        var dataCustom = document.body.getAttribute("data-custom");
+        // alert(dataCustom);
+      };
+    </script>
+  </head>
+  <body>
+    <img id="image" />
+  </body>
+</html>
